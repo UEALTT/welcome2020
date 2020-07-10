@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Yammer</title>
+</head>
+
+<body>
+	
+<script type="text/javascript" src="https://c64.assets-yammer.com/assets/platform_embed.js"></script>
+<div id="embedded-feed" style="height:400px;width:700;"></div>
+<script>
+yam.connect.embedFeed({
+    container: '#embedded-feed',
+    network: 'uea.ac.uk',
+    feedType: 'group',
+    feedId: '33250197504',
+    objectProperties: { 
+        url: 'https://www.uea.ac.uk/',
+        type: 'page'
+    }
+});
+</script>
+</body>
+</html>
